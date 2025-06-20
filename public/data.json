@@ -1,0 +1,297 @@
+{
+  "date": "2025-06-17",
+  "driver": {
+    "id": 1,
+    "name": "Alvaro",
+    "address": "201 Rue Peel, Montreal, QC",
+    "lat": 45.588415,
+    "lng": -73.587262,
+    "shift_start": "08:00",
+    "shift_end": "18:00",
+    "capacity_providers": 5,
+    "capacity_equipment": 5
+  },
+  "depot": {
+    "id": 1,
+    "name": "Storage",
+    "address": "260 Murray St, Montreal, QC H3C 2E2",
+    "lat": 45.49311,
+    "lng": -73.560616
+  },
+  "equipment": [
+    {
+      "id": 1,
+      "address": "260 Murray St, Montreal, QC",
+      "lat": 45.49311,
+      "lng": -73.560616
+    },
+    {
+      "id": 2,
+      "address": "260 Murray St, Montreal, QC",
+      "lat": 45.49311,
+      "lng": -73.560616
+    },
+    {
+      "id": 3,
+      "address": "260 Murray St, Montreal, QC",
+      "lat": 45.49311,
+      "lng": -73.560616
+    },
+    {
+      "id": 4,
+      "address": "260 Murray St, Montreal, QC",
+      "lat": 45.49311,
+      "lng": -73.560616
+    },
+    {
+      "id": 5,
+      "address": "260 Murray St, Montreal, QC",
+      "lat": 45.49311,
+      "lng": -73.560616
+    }
+  ],
+  "providers": [
+    {
+      "id": 1,
+      "name": "Carla",
+      "address": "412-305 Boulevard Marcel-Laurin, Saint Laurent, QC",
+      "phone": "14386807277",
+      "lat": 45.503872,
+      "lng": -73.675576,
+      "walkable": 12,
+      "buffer": 10,
+      "shift_start": "2025-06-17 08:00:00",
+      "shift_end": "2025-06-17 18:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Deborah",
+      "address": "7929 13e Ave, Montreal, QC H1Z 3K2",
+      "phone": "15142293285",
+      "lat": 45.564429,
+      "lng": -73.606047,
+      "walkable": 12,
+      "buffer": 10,
+      "shift_start": "2025-06-17 08:00:00",
+      "shift_end": "2025-06-17 18:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Krystyna",
+      "address": "9290 Rue Dubuisson, Montr\u00e9al, QC H1L 0B8",
+      "phone": "14385074888",
+      "lat": 45.607629,
+      "lng": -73.513903,
+      "walkable": 12,
+      "buffer": 10,
+      "shift_start": "2025-06-17 08:00:00",
+      "shift_end": "2025-06-17 18:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Raquel",
+      "address": "1565, Rue Rachel Est, Montreal, QC, H2J 2K5",
+      "phone": "14386807175",
+      "lat": 45.529447,
+      "lng": -73.570869,
+      "walkable": 12,
+      "buffer": 10,
+      "shift_start": "2025-06-17 08:00:00",
+      "shift_end": "2025-06-17 18:00:00"
+    },
+    {
+      "id": 5,
+      "name": "Ruan",
+      "address": "412-305 Boulevard Marcel-Laurin, Saint Laurent, QC",
+      "phone": "14386804427",
+      "lat": 45.503872,
+      "lng": -73.675575,
+      "walkable": 12,
+      "buffer": 40,
+      "shift_start": "2025-06-17 08:00:00",
+      "shift_end": "2025-06-17 18:00:00"
+    },
+    {
+      "id": 6,
+      "name": "Stefanie",
+      "address": "45, Rue Lafleur, #202, Montr\u00e9al, QC H4G 3C3",
+      "phone": "15144658396",
+      "lat": 45.4669945,
+      "lng": -73.5639532,
+      "walkable": 12,
+      "buffer": 10,
+      "shift_start": "2025-06-17 08:00:00",
+      "shift_end": "2025-06-17 18:00:00"
+    },
+    {
+      "id": 7,
+      "name": "Yasmin",
+      "address": "9290 Rue Dubuisson, Montr\u00e9al, QC H1L 0B8",
+      "phone": "14372585600",
+      "lat": 45.60778,
+      "lng": -73.513674,
+      "walkable": 12,
+      "buffer": 10,
+      "shift_start": "2025-06-17 08:00:00",
+      "shift_end": "2025-06-17 18:00:00"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "address": "235 Rue Peel, 805, Montr\u00e9al, QC H3C 0P8, Canada",
+      "lat": 45.49399,
+      "lng": -73.558841,
+      "start": "2025-06-17 09:00:00",
+      "end": "2025-06-17 10:00:00",
+      "duration": 3,
+      "lift_before": true,
+      "lift_after": true,
+      "equipment_required": true,
+      "assigned_to": "Deborah"
+    },
+    {
+      "id": 2,
+      "address": "101 Rue Peel, 905, Montr\u00e9al, QC H3C 0Y1, Canada",
+      "lat": 45.492762,
+      "lng": -73.556985,
+      "start": "2025-06-17 09:00:00",
+      "end": "2025-06-17 10:00:00",
+      "duration": 3,
+      "lift_before": true,
+      "lift_after": true,
+      "equipment_required": false,
+      "assigned_to": "Carla"
+    },
+    {
+      "id": 3,
+      "address": "1522 Rue Ottawa, B-703, Montr\u00e9al, QC H3J 1S1, Canada",
+      "lat": 45.489696,
+      "lng": -73.563311,
+      "start": "2025-06-17 09:15:00",
+      "end": "2025-06-17 10:15:00",
+      "duration": 3,
+      "lift_before": true,
+      "lift_after": true,
+      "equipment_required": true,
+      "assigned_to": "Ruan"
+    },
+    {
+      "id": 4,
+      "address": "1330 Rue Olier, PH1-5, Montr\u00e9al, QC H3C 1W4, Canada",
+      "lat": 45.490345,
+      "lng": -73.558744,
+      "start": "2025-06-17 09:00:00",
+      "end": "2025-06-17 10:00:00",
+      "duration": 4,
+      "lift_before": false,
+      "lift_after": true,
+      "equipment_required": true,
+      "assigned_to": "Stefanie"
+    },
+    {
+      "id": 5,
+      "address": "1375 Rue des Bassins #815, 815, Montr\u00e9al, QC H3C 1W3, Canada",
+      "lat": 45.491211,
+      "lng": -73.560545,
+      "start": "2025-06-17 09:00:00",
+      "end": "2025-06-17 10:00:00",
+      "duration": 3,
+      "lift_before": true,
+      "lift_after": false,
+      "equipment_required": true,
+      "assigned_to": "Yasmin"
+    },
+    {
+      "id": 6,
+      "address": "235 Rue Peel, 305, Montr\u00e9al, QC H3C 0P8",
+      "lat": 45.493991,
+      "lng": -73.55884,
+      "start": "2025-06-17 09:00:00",
+      "end": "2025-06-17 10:00:00",
+      "duration": 3,
+      "lift_before": true,
+      "lift_after": true,
+      "equipment_required": false,
+      "assigned_to": "Krystyna"
+    },
+    {
+      "id": 7,
+      "address": "1500 Rue des Bassins, Montr\u00e9al, QC H3C 0N3",
+      "lat": 45.4905,
+      "lng": -73.561,
+      "start": "2025-06-17 10:00:00",
+      "end": "2025-06-17 11:00:00",
+      "duration": 2,
+      "lift_before": false,
+      "lift_after": true,
+      "equipment_required": false,
+      "assigned_to": "Raquel"
+    },
+    {
+      "id": 8,
+      "address": "1000 Rue Ottawa, 408, Montr\u00e9al, QC H3C 0P3",
+      "lat": 45.4908,
+      "lng": -73.5622,
+      "start": "2025-06-17 11:00:00",
+      "end": "2025-06-17 12:00:00",
+      "duration": 1,
+      "lift_before": false,
+      "lift_after": false,
+      "equipment_required": true,
+      "assigned_to": "Deborah"
+    },
+    {
+      "id": 9,
+      "address": "2700 Rufus Rockhead, 502, Montr\u00e9al, QC H3J 2Z7",
+      "lat": 45.4812,
+      "lng": -73.5739,
+      "start": "2025-06-17 13:00:00",
+      "end": "2025-06-17 14:00:00",
+      "duration": 1,
+      "lift_before": true,
+      "lift_after": false,
+      "equipment_required": true,
+      "assigned_to": "Carla"
+    },
+    {
+      "id": 10,
+      "address": "2300 Tupper St, 106, Montr\u00e9al, QC H3H 1P3",
+      "lat": 45.4947,
+      "lng": -73.5801,
+      "start": "2025-06-17 14:00:00",
+      "end": "2025-06-17 15:00:00",
+      "duration": 2,
+      "lift_before": false,
+      "lift_after": false,
+      "equipment_required": false,
+      "assigned_to": "Stefanie"
+    },
+    {
+      "id": 11,
+      "address": "3400 Rue Saint-Antoine O, 207, Montr\u00e9al, QC H4C 1A9",
+      "lat": 45.4844,
+      "lng": -73.5829,
+      "start": "2025-06-17 15:00:00",
+      "end": "2025-06-17 16:00:00",
+      "duration": 2,
+      "lift_before": true,
+      "lift_after": true,
+      "equipment_required": true,
+      "assigned_to": "Raquel"
+    },
+    {
+      "id": 12,
+      "address": "4020 Saint-Ambroise, 204, Montr\u00e9al, QC H4C 2C7",
+      "lat": 45.4761,
+      "lng": -73.5815,
+      "start": "2025-06-17 16:00:00",
+      "end": "2025-06-17 17:00:00",
+      "duration": 1,
+      "lift_before": true,
+      "lift_after": false,
+      "equipment_required": false,
+      "assigned_to": "Krystyna"
+    }
+  ]
+}
